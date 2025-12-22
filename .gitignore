@@ -1,0 +1,21 @@
+# Build output
+dist/
+temp_build/
+
+# Node modules (if using npm scripts)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.log

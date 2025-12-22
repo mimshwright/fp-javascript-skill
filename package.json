@@ -1,0 +1,24 @@
+{
+  "name": "fp-javascript-skill",
+  "version": "1.0.0",
+  "description": "Functional programming skill for Claude - JavaScript/TypeScript patterns",
+  "scripts": {
+    "build": "./build.sh",
+    "clean": "rm -rf dist temp_build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mimswright/fp-javascript-skill.git"
+  },
+  "keywords": [
+    "claude",
+    "skill",
+    "functional-programming",
+    "javascript",
+    "typescript",
+    "ramda",
+    "fp-ts"
+  ],
+  "author": "Mims H. Wright",
+  "license": "MIT"
+}
