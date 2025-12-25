@@ -4,7 +4,17 @@ A Claude skill for functional programming patterns in JavaScript and TypeScript.
 
 ## What is this?
 
-This is a custom skill that teaches Claude best practices for writing functional JavaScript/TypeScript code, including working with libraries like Ramda, fp-ts, Sanctuary, and Effect.
+This is a custom skill that teaches Claude to write idiomatic, educational, and maintainable functional code in JavaScript and TypeScript. The skill provides comprehensive guidance on:
+
+- **Functional Programming Principles**: Purity, immutability, composition, currying, and piping
+- **Library Selection**: Detailed comparison and recommendations for Ramda, fp-ts, Sanctuary, Effect, and PureScript
+- **Code Style Standards**: Data-last composition, Haskell-style type signatures, and when to extract vs inline functions
+- **TypeScript Integration**: FP-specific type patterns, generic constraints, and type inference strategies
+- **Testing Strategies**: Focused testing of atomic functions with "correctness by construction" for composed pipelines
+- **Algebraic Structures**: Fantasy Land specifications, functors, monads, and algebraic data types
+- **Advanced Topics**: Combinators (K, S, I, B, C), type theory, higher-kinded types, and sum/product types
+
+The skill adapts to your project by detecting installed libraries in `package.json` and provides context-aware recommendations based on your purity requirements, TypeScript usage, and team experience level.
 
 ## Installation
 
