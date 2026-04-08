@@ -1,10 +1,8 @@
 {
   "name": "fp-javascript-skill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Functional programming skill for Claude - JavaScript/TypeScript patterns",
   "scripts": {
-    "build": "./build.sh",
-    "clean": "rm -rf dist temp_build"
   },
   "repository": {
     "type": "git",

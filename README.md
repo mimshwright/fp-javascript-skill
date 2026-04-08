@@ -1,4 +1,4 @@
-# fp-javascript Skill
+# fp-js Skill
 
 A Claude skill for functional programming patterns in JavaScript and TypeScript.
 
@@ -16,57 +16,28 @@ This is a custom skill that teaches Claude to write idiomatic, educational, and 
 
 The skill adapts to your project by detecting installed libraries in `package.json` and provides context-aware recommendations based on your purity requirements, TypeScript usage, and team experience level.
 
-## Installation
-
-1. Clone this repository
-2. Build the skill file:
-   ```bash
-   npm run build
-   ```
-3. The distributable `.skill` file will be created in `dist/fp-javascript.skill`
-4. Add the skill to your Claude configuration
-
 ## Development
 
 ### Project Structure
 
-```
+```text
 fp-javascript-skill/
-├── src/
+├── skills/fp-js
 │   ├── SKILL.md              # Main skill instructions
 │   └── references/           # Reference documentation
 │       ├── combinators.md
 │       ├── fantasy-land.md
 │       ├── type-definitions.md
 │       └── type-theory.md
-├── dist/                     # Build output (gitignored)
-│   └── fp-javascript.skill
-├── build.sh                  # Build script
 ├── package.json              # Project metadata and scripts
 └── README.md                 # This file
 ```
 
-### Building
-
-The skill file is a zip archive containing the markdown source files. To build:
-
-```bash
-npm run build
-```
-
-Or directly:
-
-```bash
-./build.sh
-```
-
 ### Editing
 
-Edit the markdown files in `src/` directory:
-- [src/SKILL.md](src/SKILL.md) - Main skill content
-- [src/references/](src/references/) - Additional reference materials
-
-After making changes, rebuild the skill file.
+Edit the markdown files in `skills/` directory:
+- [skills/fp-js/SKILL.md](skills/fp-js/SKILL.md) - Main skill content
+- [skills/fp-js/references/](skills/fp-js/references/) - Additional reference materials
 
 ## What does this skill cover?
 
