@@ -36,6 +36,7 @@ fp-javascript-skill/
 ### Editing
 
 Edit the markdown files in `skills/` directory:
+
 - [skills/fp-js/SKILL.md](skills/fp-js/SKILL.md) - Main skill content
 - [skills/fp-js/references/](skills/fp-js/references/) - Additional reference materials
 
